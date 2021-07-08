@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="pplantilla" verbose="2" preserve-order="true">
+    <listeners>
+        <listener class-name="listeners.SuiteListener"/>
+        <!--        <listener class-name="listeners.MethodInterceptor"/>-->
+        <listener class-name="listeners.AnnotationTransformerListener"/>
+        <!--        <listener class-name="listeners.ConfigurationListener"/>-->
+        <!--        <listener class-name="listeners.ExecutionListener"/>-->
+        <!--        <listener class-name="listeners.HookableListener"/>-->
+        <!--        <listener class-name="listeners.InvokedMethodListener"/>-->
+        <!--        <listener class-name="listeners.ReporterListener"/>-->
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+    <test name="NombreOperativa">
+        <packages>
+            <package name=".*"/>
+        </packages>
+    </test>
+
+</suite>
