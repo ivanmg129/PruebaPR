@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testng-results failed="0" passed="2" skipped="0" total="2">
+<suite duration-ms="11080" name="io.cucumber.core.plugin.TestNGFormatter">
+<test duration-ms="11080" name="io.cucumber.core.plugin.TestNGFormatter">
+<class name="HOM">
+<test-method duration-ms="6198" finished-at="2021-07-07T20:14:50.941255600Z" name="PR-0001-HOM.01.Comprobar acceso a empezar ahora" started-at="2021-07-07T20:14:44.734078100Z" status="PASS"/>
+<test-method duration-ms="4701" finished-at="2021-07-07T20:14:55.660928300Z" name="PR-0002-HOM.01.Comprobar acceso a Nuestra solucion" started-at="2021-07-07T20:14:50.958205800Z" status="PASS"/>
+</class>
+</test>
+</suite>
+</testng-results>
